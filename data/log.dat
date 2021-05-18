@@ -1,0 +1,14 @@
+Application path: /php/app.php?install-wizard-2
+2021-05-18 15:01:26 [error] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Stack trace:
+D:\phpstudy_pro\WWW\827.com\php\service\Database.php:50 (Logger:error())
+D:\phpstudy_pro\WWW\827.com\php\service\Database.php:68 (Database:connect())
+D:\phpstudy_pro\WWW\827.com\php\service\Database.php:28 (Database:reconnect())
+D:\phpstudy_pro\WWW\827.com\php\lib\Service.php:17 (Database:onRegister())
+D:\phpstudy_pro\WWW\827.com\php\lib\ServiceContainer.php:55 (Service:setServiceContainer())
+D:\phpstudy_pro\WWW\827.com\php\lib\Controller.php:33 (ServiceContainer:get())
+D:\phpstudy_pro\WWW\827.com\php\controller\InstallController.php:2 (Controller:get())
+D:\phpstudy_pro\WWW\827.com\php\app\Application.php:165 (InstallController:wizard2Action())
+D:\phpstudy_pro\WWW\827.com\php\app\Application.php:89 (Application:runAction())
+D:\phpstudy_pro\WWW\827.com\php\app.php:27 (Application:run())
+
